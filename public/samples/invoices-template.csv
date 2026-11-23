@@ -1,0 +1,1 @@
+invoice_number,issue_date,reference,buyer_name,buyer_tin,buyer_email,buyer_street,buyer_city,buyer_state,buyer_lga,buyer_postal,description,quantity,unit_price,vat_rate,payment_status,invoice_kind,isic,service_category
