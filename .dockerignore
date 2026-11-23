@@ -1,0 +1,6 @@
+.git
+storage/*.sqlite
+storage/*.sqlite-*
+storage/*.log
+storage/brand/*
+!storage/brand/.gitkeep

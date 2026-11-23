@@ -10,6 +10,12 @@ function robes_dispatch(): void
     $method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
     $path = robes_path();
 
+    if ($path === '/health' && $method === 'GET') {
+        header('Content-Type: text/plain; charset=utf-8');
+        echo "ok\n";
+        return;
+    }
+
     if ($path === '/brand-logo' && $method === 'GET') {
         robes_send_logo();
         return;
